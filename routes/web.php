@@ -36,7 +36,12 @@ Route::get('/publications', 'BhwController@bhw_publication')->name('publications
 Route::get('/regions', 'BhwController@regions')->name('regions');
 Route::get('/single-region/{id}', 'BhwController@single_region')->name('single-region');
 
+Route::get('/reports-all', 'BhwController@reports_all')->name('reports-all');
 Route::get('/bhw-reports', 'BhwController@bhw_reports')->name('bhw-reports');
+Route::get('/bhw-media-campaign', 'BhwController@media_campaign')->name('media-campaign');
+Route::get('/bhw-media-monitoring', 'BhwController@media_monitoring')->name('media-monitoring');
+Route::get('/bhw-media-synthesis', 'BhwController@media_synthesis')->name('media-synthesis');
+Route::get('/policy-brief', 'BhwController@policy_brief')->name('policy-brief');
 Route::get('/bhw-bulletin', 'BhwController@bhw_bulletin')->name('bhw-bulletin');
 
 Route::get('/photo-gallery', 'BhwController@photo_gallery')->name('photo-gallery');

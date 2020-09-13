@@ -23,12 +23,14 @@
 
 		<div class="row mb-4">
 			<div class="col-md-12">
+				
 				<div class="bhw-text">
-					<h3>BHW reports</h3>
-					<p>Bangladesh Health Watch published seven reports and the first report published on December 2006. The reports have been published on the issues: Sate of Health in Bangladesh (2006), Health Workforce (2007), Health Sector Governance (2009), Universal health Coverage (2011), Urban health Scenario on Bangladesh (2014), Non-Communicable Diseases (2016), Humanitarian Crisis in Rohingya Camps: A Health Perspective (2018-2019).</p>
-					<p>All the reports are available below.</p>
+					<h3>Policy brief</h3>
+					<p>BHW will publish policy brief now on words semi-annually. The first policy brief has been published in May 2020 on Fear and Stigma in the Context of Corona Epidemic in Bangladesh. The policy brief has widely distributed as a knowledge sharing tool to relevant Ministries and various directorates/departments including public representatives both at national and regional levels, academia, civil society, NGOs and other allied organizations.</p>
+					<p>Policy brief is available below.</p>
 				</div>
 				<hr>
+
 			</div>
 		</div>
 

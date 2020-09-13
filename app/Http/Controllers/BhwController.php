@@ -161,11 +161,66 @@ class BhwController extends Controller
 
     // BHW Reports
     public function bhw_reports() {
-        $reports = Report::orderBy('id', 'DESC')->get();
+        $reports = Report::orderBy('id', 'DESC')->where('type', 'bhw-report')->paginate(5);
         $bulletins = Bulletin::orderBy('id', 'DESC')->get();
         $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
         return view('front.reports.bhw-reports', compact(
             'reports',
+            'bulletins',
+            'photos',
+        ));
+    }
+
+    public function media_campaign() {
+        $reports = Report::orderBy('id', 'DESC')->where('type', 'media-campaign')->paginate(5);
+        $bulletins = Bulletin::orderBy('id', 'DESC')->get();
+        $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
+        return view('front.reports.media-campaign', compact(
+            'reports',
+            'bulletins',
+            'photos',
+        ));
+    }
+
+    public function media_monitoring() {
+        $reports = Report::orderBy('id', 'DESC')->where('type', 'media-monitoring')->paginate(5);
+        $bulletins = Bulletin::orderBy('id', 'DESC')->get();
+        $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
+        return view('front.reports.media-monitoring', compact(
+            'reports',
+            'bulletins',
+            'photos',
+        ));
+    }
+
+    public function media_synthesis() {
+        $reports = Report::orderBy('id', 'DESC')->where('type', 'media-synthesis')->paginate(5);
+        $bulletins = Bulletin::orderBy('id', 'DESC')->get();
+        $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
+        return view('front.reports.media-synthesis', compact(
+            'reports',
+            'bulletins',
+            'photos',
+        ));
+    }
+
+    public function policy_brief() {
+        $reports = Report::orderBy('id', 'DESC')->where('type', 'policy-brief')->paginate(5);
+        $bulletins = Bulletin::orderBy('id', 'DESC')->get();
+        $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
+        return view('front.reports.policy-brief', compact(
+            'reports',
+            'bulletins',
+            'photos',
+        ));
+    }
+
+    public function reports_all() {
+        // $reports = Report::orderBy('id', 'DESC')->get();
+        $bulletins = Bulletin::orderBy('id', 'DESC')->get();
+        $photos = Photo::orderBy('created_at', 'desc')->take(12)->get();
+        return view('front.reports.reports', compact(
+            // 'reports',
             'bulletins',
             'photos',
         ));

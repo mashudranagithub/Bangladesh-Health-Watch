@@ -11,16 +11,10 @@
 <section id="Research">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="section-heading">
-					<h2>BHW Research</h2>
+					<h2>Generating for Advocacy</h2>
 				</div>
-			</div>
-			<div class="col-md-6">
-				<!-- <div class="research-search">
-					<input type="search">
-					<a href="javascript:void(0)" class="submit">Search</a>
-				</div> -->
 			</div>
 		</div>
 		<div class="row">

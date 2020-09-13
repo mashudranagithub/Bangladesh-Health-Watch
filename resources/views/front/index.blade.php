@@ -113,7 +113,7 @@
 							<div class="section-heading">
 								<h2>Bangladesh Health Watch (BHW)</h2>
 								<a href="{{ route('bhw-bulletin') }}" class="btn btn-bhw btn-link">Bulletin</a>
-								<a href="{{ route('bhw-reports') }}" class="btn btn-bhw btn-link">Report</a>
+								<a href="{{ route('reports-all') }}" class="btn btn-bhw btn-link">Report</a>
 							</div>
 						</div>
 					</div>

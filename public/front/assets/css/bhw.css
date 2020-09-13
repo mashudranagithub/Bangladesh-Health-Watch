@@ -1,4 +1,4 @@
-/*font-family: 'Bebas Neue', cursive;
+font-family: 'Bebas Neue', cursive;
 font-family: 'Roboto', sans-serif;*/
 
 * {
@@ -317,6 +317,12 @@ ul.first-dropped-menu.last-dropdown {
 
 a.search-icon i.fa {
     color: #ddd;
+}
+
+/*Extra CSS for menu fix*/
+.main-menu nav ul.navbar-nav>li:last-child, .main-menu nav ul.navbar-nav>li:last-child a {
+    margin: 0;
+    padding-right: 0;
 }
 
 
@@ -971,6 +977,12 @@ section#Background {
 section#Vision-mission,
 section#Page-links {
     padding-bottom: 50px;
+}
+
+section#Vision-mission ul li {
+    list-style-type: lower-alpha;
+    display: list-item;
+    margin: 0 0 5px 20px;
 }
 
 .single-page-link {
@@ -1692,4 +1704,4 @@ section#Publication.gray .single-publication a.newspaper-name {
     margin-top: 10px;
 }
 
-/*Publication page end here*/
+/*Publication page end here

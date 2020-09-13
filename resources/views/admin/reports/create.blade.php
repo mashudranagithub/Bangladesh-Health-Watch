@@ -45,6 +45,17 @@
             <input name="report_title" type="text" class="form-control" id="report-title" placeholder="Activity Title" required>
           </div>
           <div class="form-group">
+            <label for="type">Select Report Type</label>
+            <select name="type" id="type" class="form-control">
+              <option value="" selected>Select Report Type</option>
+              <option value="bhw-report">BHW Reports</option>
+              <option value="policy-brief">Policy Brief</option>
+              <option value="media-monitoring">Media Monitoring</option>
+              <option value="media-synthesis">Media Synthesis</option>
+              <option value="media-campaign">Media Campaign</option>
+            </select>
+          </div>
+          <div class="form-group">
             <label for="report-file">Report File (Only PDF)</label>
             <input name="report_file" type="file" id="report-file" accept=".pdf" required>
             <div>

@@ -24,9 +24,8 @@
 		<div class="row mb-4">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<h3>BHW reports</h3>
-					<p>Bangladesh Health Watch published seven reports and the first report published on December 2006. The reports have been published on the issues: Sate of Health in Bangladesh (2006), Health Workforce (2007), Health Sector Governance (2009), Universal health Coverage (2011), Urban health Scenario on Bangladesh (2014), Non-Communicable Diseases (2016), Humanitarian Crisis in Rohingya Camps: A Health Perspective (2018-2019).</p>
-					<p>All the reports are available below.</p>
+					<h3>Media Synthesis report:</h3>
+					<p>Besides regular media scanning reports, a media synthesis reports on covid19 on different aspects of health issues periodically published based on the news in the leading national Bangla and English newspapers in Bangladesh which are also available below.</p>
 				</div>
 				<hr>
 			</div>

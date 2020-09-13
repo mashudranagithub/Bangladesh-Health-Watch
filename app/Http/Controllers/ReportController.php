@@ -17,7 +17,7 @@ class ReportController extends Controller
      */
     public function index()
     {
-        $reports = Report::all();
+        $reports = Report::orderBy('created_at', 'DESC')->paginate(10);
         return view('admin.reports.index', compact(
             'reports',
         ));
@@ -43,6 +43,7 @@ class ReportController extends Controller
     {
         $this->validate($request,[
             'report_title'=>'required',
+            'type'=>'required',
             'report_file'=>'required|mimes:pdf',
         ]);
 
@@ -58,6 +59,7 @@ class ReportController extends Controller
         }
 
         $report->report_title = $request->input('report_title');
+        $report->type = $request->input('type');
 
         $report->save();
 
@@ -120,6 +122,7 @@ class ReportController extends Controller
         }
 
         $report->report_title = $request->input('report_title');
+        $report->type = $request->input('type');
 
         $report->save();
 

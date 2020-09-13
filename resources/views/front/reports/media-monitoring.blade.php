@@ -24,9 +24,9 @@
 		<div class="row mb-4">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<h3>BHW reports</h3>
-					<p>Bangladesh Health Watch published seven reports and the first report published on December 2006. The reports have been published on the issues: Sate of Health in Bangladesh (2006), Health Workforce (2007), Health Sector Governance (2009), Universal health Coverage (2011), Urban health Scenario on Bangladesh (2014), Non-Communicable Diseases (2016), Humanitarian Crisis in Rohingya Camps: A Health Perspective (2018-2019).</p>
-					<p>All the reports are available below.</p>
+					<h3>Media Monitoring report:</h3>
+					<p>BHW is scanning health news published in six mainstream leading daily newspapers (3 Bangla, 3 English) since March 2020 through a media firm/house to generate evidence for its advocacy initiatives. The media house has been developing monthly analyzed report based on the media scanning. </p>
+					<p>Monthly scanning report is available in below</p>
 				</div>
 				<hr>
 			</div>

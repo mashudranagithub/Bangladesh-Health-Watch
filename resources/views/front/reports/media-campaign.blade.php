@@ -24,9 +24,9 @@
 		<div class="row mb-4">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<h3>BHW reports</h3>
-					<p>Bangladesh Health Watch published seven reports and the first report published on December 2006. The reports have been published on the issues: Sate of Health in Bangladesh (2006), Health Workforce (2007), Health Sector Governance (2009), Universal health Coverage (2011), Urban health Scenario on Bangladesh (2014), Non-Communicable Diseases (2016), Humanitarian Crisis in Rohingya Camps: A Health Perspective (2018-2019).</p>
-					<p>All the reports are available below.</p>
+					<h3>Media campaign report on covid-19:</h3>
+					<p>BHW carried out a study on fear and stigma related to Covid-19. Based on that study BHW launched a well-designed outreach communication campaign to sensitize the wider population against fear and stigma related to Covid-19. The campaign targets potentially stigmatized people, those who make people stigmatized and support groups like, local administration, political agencies; BGMEA, BKMEA. This initiative was a series of online based campaign programmes that included video spots and other static materials. </p>
+					<p>The campaign materials are in below</p>
 				</div>
 				<hr>
 			</div>

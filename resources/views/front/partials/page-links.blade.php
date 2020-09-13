@@ -13,7 +13,7 @@
 				<div class="single-page-link">
 					<a href="{{ route('what-we-do') }}">
 						<img src="{{ url('front/assets/images/who-we-are/who-we-are-link-2.jpg') }}" alt="Page Link Image">
-						<h3>What We Do</h3>
+						<h3>Our Activities</h3>
 					</a>
 				</div>
 			</div>
@@ -21,7 +21,7 @@
 				<div class="single-page-link">
 					<a href="{{ route('bhw-reports') }}">
 						<img src="{{ url('front/assets/images/who-we-are/who-we-are-link-report.jpg') }}" alt="Page Link Image">
-						<h3>BHW Reports</h3>
+						<h3>BHW Publications</h3>
 					</a>
 				</div>
 			</div>

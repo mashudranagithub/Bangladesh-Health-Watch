@@ -3,7 +3,7 @@
 	@section('content')
 
 <section id="Page-banner">
-	<img src="{{ url('front/assets/images/page-banners/advisory-committee.jpg') }}" alt="Page Banner Image">
+	<img src="{{ url('front/assets/images/page-banners/Who-we-are-banner.jpg') }}" alt="Page Banner Image">
 </section>
 
 
@@ -20,6 +20,14 @@
 
 <section id="Group">
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12 mb-4">
+				<div class="bhw-text">
+					<h3>Advisory Group</h3>
+					<p>The Advisory Group (AG) has been formed to provide overall direction, guidance and support to the Working Group (WG) while carrying out the activities of BHW. The members of AG are the eminent citizens of Bangladesh who have unique knowledge and skills in different sectors including health. The AG is led by a Convener, with the support of a Co-Convener.  AG meets bi annually.</p>
+				</div>
+			</div>
+		</div>
 		<div class="row">
 
 

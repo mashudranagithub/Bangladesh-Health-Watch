@@ -40,6 +40,7 @@
 				<thead>
 					<tr>
 						<th>Report Title</th>
+						<th>Report Type</th>
 						<th>Action</th>
 					</tr>
 				</thead>
@@ -47,6 +48,7 @@
 			@foreach($reports as $report)
 					<tr>
 						<td>{{ $report->report_title }}</td>
+						<td>{{ $report->type }}</td>
 						<td>
 					         <a class="btn btn-primary" href="{{ route('showReport', $report->id) }}">Show</a>
 					         <a class="btn btn-primary" href="{{ route('editReport', $report->id) }}">Edit</a>
@@ -57,9 +59,10 @@
 					</tr>
 			@endforeach
 
-
 				</tbody>
 			</table>
+
+			{{ $reports->links() }}
             </div>
           </div>
           <!-- /.box -->

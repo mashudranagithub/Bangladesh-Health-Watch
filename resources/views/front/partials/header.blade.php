@@ -61,27 +61,28 @@
 		                                            <li><a href="{{ route('background') }}">Background</a></li>
 		                                            <li><a href="{{ route('working-group') }}">Working Group</a></li>
 		                                            <li><a href="{{ route('advisory-group') }}">Advisory Group</a></li>
-		                                            <li><a href="{{ route('thematic-group') }}">Themetic Group</a></li>
+		                                            <!-- <li><a href="{{ route('thematic-group') }}">Themetic Group</a></li> -->
 		                                            <li><a href="{{ route('secretariat-group') }}">Secretariat</a></li>
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">
-		                                        <a href="{{ route('what-we-do') }}">What we do</a>
+		                                        <a href="{{ route('what-we-do') }}">Our Activities</a>
 		                                        <ul class="first-dropped-menu">
-		                                            <li><a href="{{ route('research') }}">Research</a></li>
+		                                            <li><a href="{{ route('policy-advocacy') }}">Policy Advocacy</a></li>
+		                                            <li><a href="{{ route('events') }}">BHW's Role In COVID Crisis</a></li>
+		                                            <li><a href="{{ route('research') }}">Generating for Advocacy</a></li>
 		                                            <li><a href="{{ route('publications') }}">Publications</a></li>
 		                                            <li><a href="{{ route('regions') }}">Regional Chapter</a></li>
 		                                            <li><a href="{{ route('short-courses') }}">Short Course</a></li>
-		                                            <li><a href="{{ route('policy-advocacy') }}">Policy Advocacy</a></li>
 		                                            <li><a href="{{ route('networking') }}">Networking</a></li>
 		                                            <li><a href="{{ route('strategic-plan') }}">Stratigic Plan</a></li>
 		                                            <li><a href="{{ route('projects') }}">Our Projects</a></li>
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">
-		                                        <a href="{{ route('bhw-reports') }}">Reports</a>
+		                                        <a href="{{ route('reports-all') }}">BHW Publications</a>
 		                                        <ul class="first-dropped-menu">
-		                                            <li><a href="{{ route('bhw-reports') }}">BHW Reports</a></li>
+		                                            <li><a href="{{ route('reports-all') }}">BHW Reports</a></li>
 		                                            <li><a href="{{ route('bhw-bulletin') }}">BHW Bulletin</a></li>
 		                                        </ul>
 		                                    </li>
@@ -100,14 +101,14 @@
 		                                </ul>
 		                            </div>
 		                        </nav>
-		                        <form action="#" class="d-flex align-items-center justify-content-center">
+		                        <!-- <form action="#" class="d-flex align-items-center justify-content-center">
 		                        	<div class="search">
 		                        		<input type="search" placeholder="Search Here">
 		                        		<a href="#" class="search-icon">
 		                        			<i class="fa fa-search"></i>
 		                        		</a>
 		                        	</div>
-		                        </form>
+		                        </form> -->
 							</div>
 						</div>
 					</div>
