@@ -28,39 +28,53 @@
 				<div class="col-md-4">
 					<div class="address-content">
 						<h4>Address</h4>
-						<div class="content d-flex align-items-center">
-							<div class="address-icon">
-								<i class="fa fa-home"></i>
-							</div>
-							<div class="address-details">
-								<p>68, Shahed Tazuddin Ahmed Sarani, icddr,b (level 6), Mohakhali 1212 Dhaka</p>
-							</div>
-						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="address-content">
 						<h4>Phone</h4>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="address-content">
+						<h4>Email</h4>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-md-4">
+					<div class="address-content">
 						<div class="content d-flex align-items-center">
 							<div class="address-icon">
-								<i class="fa fa-phone"></i>
+								<i class="fa fa-home"></i>
 							</div>
 							<div class="address-details">
-								<p>+880 1918 631391</p>
-								<p>+880 1918 631391</p>
+								<p>Bangladesh Health Watch Secretariat, James P Grant School of Public Health, BRAC University,	68, Shaheed Tajuddin Ahmen Sharani, 5th Floor (Level 6), icddr,b Building, Mohakhali, Dhaka 1212, Bangladesh</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="address-content">
-						<h4>Email</h4>
+						<div class="content d-flex align-items-center">
+							<div class="address-icon">
+								<i class="fa fa-phone"></i>
+							</div>
+							<div class="address-details">
+								<p>+8800000000000</p>
+								<p>+8800000000000</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="address-content">
 						<div class="content d-flex align-items-center">
 							<div class="address-icon">
 								<i class="fa fa-envelope"></i>
 							</div>
 							<div class="address-details">
-								<p>info@bangladeshhealthwatch.org</p>
+								<p>contact@bangladeshhealthwatch.org</p>
 							</div>
 						</div>
 					</div>
@@ -82,19 +96,20 @@
 				<div class="row justify-content-center">
 					<div class="col-md-7 text-center">
 						<h4>Send Us A Message</h4>
-						<form action="#" method="post">
+						<form action="{{ route('emailsend') }}" method="post">
+                          @csrf
 							<div class="form-group">
-								<input name="name" type="text" class="form-control" placeholder="Your Name">
+								<input name="name" type="text" class="form-control" placeholder="Your Name" required>
 							</div>
 							<div class="form-group">
-								<input name="email" type="email" class="form-control" placeholder="email@example.com">
+								<input name="email" type="email" class="form-control" placeholder="email@example.com" required>
 							</div>
 							<div class="form-group">
 								<input name="subject" type="text" class="form-control" placeholder="Subject">
 							</div>
 
 							<div class="form-group">
-								<textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message ..."></textarea>
+								<textarea name="message" cols="30" rows="3" class="form-control" placeholder="Message ..." required></textarea>
 							</div>
 							<button type="submit" class="btn btn-primary">Send Message</button>
 						</form>

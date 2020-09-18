@@ -261,6 +261,13 @@
           </ul>
         </li>
 
+        <li>
+          <a href="{{ route('subscribers') }}">
+            <i class="fa fa-list text-yellow"></i>
+            <span>Subscribers</span>
+          </a>
+        </li>
+
 
 
       </ul>

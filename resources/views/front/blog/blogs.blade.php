@@ -16,6 +16,16 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="bhw-text">
+							<p>So far 20 newspaper/journal articles are written by BHW’s WG members which are published both Bangla and English newspapers.</p>
+							<p>All write up/ articles are posted in the blog. Those are available here.</p>
+						</div>
+					</div>
+				</div>
+				
 				<div class="row">
 
 					@foreach($blogs as $blog)

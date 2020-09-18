@@ -24,7 +24,7 @@
 							<div class="blog-meta d-flex justify-content-between">
 								
                   <div class="event-meta">
-                    <p class="mb-2" style="font-size: 18px; font-weight: 700;">Date: <span style="float:left;">{{ $research->created_at->format('D') }}, {{ $research->created_at->format('d M') }} {{ $research->created_at->format('Y') }}</span></p>
+                    <p class="mb-2" style="font-size: 18px; font-weight: 700;"><span style="float:left;">Date: {{ $research->created_at->format('D') }}, {{ $research->created_at->format('d M') }} {{ $research->created_at->format('Y') }}</span></p>
                   </div>
                 
                   <div class="event-meta">

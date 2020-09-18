@@ -154,6 +154,15 @@ var gallery = $('.gallery a').simpleLightbox({
 
 
 
+    
+    $('.optional-btn.btn-subscribe').click(function(){
+        $(this).hide();
+        $('.main-btn.btn-subscribe').show();
+        $('.subscription-form input').slideDown(300);
+    })
+
+
+
 
 	
 });

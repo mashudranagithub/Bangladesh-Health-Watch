@@ -25,6 +25,7 @@ Route::get('/single-course/{id}', 'BhwController@bhw_single_course')->name('sing
 Route::get('/policy-advocacy', 'BhwController@bhw_policy_advocacy')->name('policy-advocacy');
 Route::get('/networking', 'BhwController@bhw_networking')->name('networking');
 Route::get('/strategic-plan', 'BhwController@bhw_strategic_plan')->name('strategic-plan');
+Route::get('/bhw-others', 'BhwController@bhw_others')->name('bhw-others');
 
 Route::get('projects', 'BhwController@bhw_projects')->name('projects');
 Route::get('single-project/{id}', 'BhwController@bhw_single_projects')->name('single-project');
@@ -54,7 +55,9 @@ Route::get('single-event/{id}', 'BhwController@single_event')->name('single-even
 
 Route::get('/contact', 'BhwController@contact')->name('contact');
 
+Route::post('/emailsend', 'BhwController@emailsend')->name('emailsend');
 
+Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
 
 
 Auth::routes(['verify' => true]);
@@ -226,6 +229,10 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::get('slider/edit/{id}', 'SliderController@edit')->name('editSlider');
 	Route::put('slider/update/{id}', 'SliderController@update')->name('updateSlider');
 	Route::delete('slider/delete/{id}', 'SliderController@destroy')->name('deleteSlider');
+
+
+
+	Route::get('/subscribers', 'SubscriptionController@index')->name('subscribers');
 
 
 

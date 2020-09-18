@@ -66,17 +66,17 @@
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">
-		                                        <a href="{{ route('what-we-do') }}">Our Activities</a>
+		                                        <a href="javascript:void(0);">Our Activities</a>
 		                                        <ul class="first-dropped-menu">
 		                                            <li><a href="{{ route('policy-advocacy') }}">Policy Advocacy</a></li>
-		                                            <li><a href="{{ route('events') }}">BHW's Role In COVID Crisis</a></li>
+		                                            <li><a href="{{ route('bhw-others') }}">BHW's Role In COVID Crisis</a></li>
 		                                            <li><a href="{{ route('research') }}">Generating for Advocacy</a></li>
 		                                            <li><a href="{{ route('publications') }}">Publications</a></li>
 		                                            <li><a href="{{ route('regions') }}">Regional Chapter</a></li>
 		                                            <li><a href="{{ route('short-courses') }}">Short Course</a></li>
 		                                            <li><a href="{{ route('networking') }}">Networking</a></li>
 		                                            <li><a href="{{ route('strategic-plan') }}">Stratigic Plan</a></li>
-		                                            <li><a href="{{ route('projects') }}">Our Projects</a></li>
+		                                            <!-- <li><a href="{{ route('projects') }}">Our Projects</a></li> -->
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">

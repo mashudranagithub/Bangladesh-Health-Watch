@@ -5,7 +5,7 @@
 
 
 <section id="Page-banner">
-	<img src="{{ asset('front/assets/images/page-banners/BHW-Bulletin.jpg') }}" alt="Page Banner Image">
+	<img src="{{ asset('front/assets/images/page-banners/Who-we-are-banner.jpg') }}" alt="Page Banner Image">
 </section>
 
 
@@ -17,13 +17,8 @@
 					<h2>Widening National and International Networking</h2>
 				</div>
 				<div class="bhw-text">
-					<p>BHW will invest substantial efforts to build on its advocacy design and implementation by learning from global experiences. This will be achieved through on-line reviews of successful advocacy initiatives, interactions with advocacy groups in-country, in the region and internationally. In addition, BHW’s lessons learnt will be documented and shared in international arena and thus contribute to the existing body of knowledge both in areas of advocacy as well as in quality of care/accountability/equity.</p>
-
-					<p>Every year, two lessons learnt documents will be prepared and disseminated through BHW’s website. At least two peer reviewed scientific publications will be made in a relevant journals (e.g. Health Policy & Planning, Development in Practice), based on the material. BHW’s experience in implementing the project and its successes and challenges will be shared in relevant international scientific forums.</p>
-
-					<p>BHW will also organize an international conference on ‘Fifty Years of Bangladesh Health Sector: Progress and Challenges in Ensuring Participation and Equity’. This will be a 2 days’ conference, which will be attended by about 300 participants, and will critically look at the challenges and successes in the areas of equity and participation. Eminent international scientists who had contributed to Bangladesh’s health sector will present their experiences and suggestions, in light of critical analyses of the programme as it stands today.</p>
-
-					<p>A declaration with a roadmap for the next 10 years will be published at the end of the conference for shaping up the programme in context of participation and equity. This road map will take into consideration the new/emerging challenges of non-communicable diseases, climate change and environmental impact, increasing role of private sector, lack of urban health infrastructure etc. Prior to the conference, a comprehensive publication will be launched which will document the evolution of the health sector and critically examine its successes and challenges. This book will be authored by eminent scientists, academics and programme managers from home and abroad and will be the main resource for the conference.</p>
+					<p>BHW, being a citizens’ platform is committed to l establish strong networking with  likeminded organizations and experts to achieve a common goal for the health sector. For this, BHW has recently strengthened its Working Group with inclusion of more diverse expertise and experience, and is in the process of forming active partnerships with different agencies. Over time such partnerships/alliances may extend beyond the country’s borders.</p>
+					<p>Different activities like joint research projects, experience sharing meetings, meetings with policy makers, meeting with regional groups,  workshops, seminar etc. will builds and strengthen the network. Mention Regional Groups here, as these are also part of networking. Bangladesh health watch has collaborative partnership with JPGSPH, Health Alliance Bangladesh, Risk Communication and Change Education platform.</p>
 				</div>
 			</div>
 		</div>

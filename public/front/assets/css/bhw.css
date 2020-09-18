@@ -527,6 +527,20 @@ section#Link-banner {
     position: relative;
 }
 
+.link-banner-image {
+    position: relative;
+}
+
+.link-banner-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
 .banner-links {
     position: absolute;
     top: 0;
@@ -791,18 +805,26 @@ section#Subscribtion {
     background: #105caa;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+section#Subscribtion .notification-area {
+    position: absolute;
+    top: -20px;
+    right: 30%;
 }
 
 section#Subscribtion h2 {
     margin: 0;
     color: #fff;
     margin-bottom: -8px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
 }
 
 
-form.subscription-form input {
+form.subscription-form input,
+.main-btn.btn-subscribe {
     display: none;
 }
 
@@ -817,10 +839,35 @@ a.btn-subscribe {
     text-decoration: none;
 }
 
-a.btn-subscribe:hover {
+a.btn-subscribe:hover,
+button.main-btn.btn-subscribe:hover {
     color: #105caa;
     background: #f6f6f6;
 }
+
+form.subscription-form input[type="email"] {
+    padding: 2px 15px;
+    width: 350px;
+    margin-right: 20px;
+    outline: none;
+    box-shadow: 0 0 black;
+    border: none;
+    border-radius: 4px;
+}
+
+button.main-btn.btn-subscribe {
+    background: #fff;
+    color: #000;
+    font-size: 25px;
+    padding: 5px 50px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 0 black;
+    border:none;
+}
+
 /*Subscription section end here*/
 
 
@@ -919,7 +966,12 @@ ul.footer-menu {
 .footer-gallery a {
     width: 21%;
     display: inline-block;
-    margin-right: 2%;
+    margin: 0% 1% 1% 0%;
+    min-height: 58px;
+}
+
+.footer-gallery a img {
+    height: 55px;
 }
 
 p.copyright-text {
@@ -1003,17 +1055,6 @@ section#Vision-mission ul li {
 
 
 /*Who we are page start here*/
-#Promo-banner {
-    background: url('../images/banner/promo-banner-who-we-are-page.jpg');
-    background-size: cover;
-    min-height: 450px;
-    /*padding: 50px 0;*/
-}
-
-section#Promo-banner .bhw-paragraph p {
-    color: #fff;
-    margin-bottom: 15px;
-}
 
 .bhw-paragraph {
     padding: 50px 0;
@@ -1408,6 +1449,7 @@ section#Research h2 {
 .research-info {
     background: #e8e8e8;
     padding: 20px;
+    min-height: 120px;
 }
 
 .research-info h4 a {
@@ -1477,15 +1519,15 @@ section#Contact-address h2 {
     margin-right: 0;
 }
 
-.address-content {
-    padding: 40px 15px;
+.address-content .address-details {
+    padding-bottom: 20px;
 }
 
 .address-content h4 {
     text-align: center;
-    margin-bottom: 25px;
     position: relative;
-    padding-bottom: 10px;
+    padding: 15px 0 0px;
+    margin-bottom: 15px;
 }
 
 .address-content h4::after {
@@ -1494,7 +1536,7 @@ section#Contact-address h2 {
     width: 60px;
     height: 2px;
     background: #f79420;
-    bottom: 0;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
 }

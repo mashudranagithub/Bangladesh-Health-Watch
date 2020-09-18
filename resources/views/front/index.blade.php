@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-md-12 text-center">
 						<div class="intro-text">
-							<p>Bangladesh Health Watch (BHW), a multi-stakeholder civil society advocacy and monitoring network dedicated to improve the health system in Bangladesh through critical review of policies and programmes and recommendation of appropriate actions for change. The objective of BHW is to improve health of the people by way of monitoring progress in the health of the population and health systems, and playing a catalytic role in making lasting changes in the health sector. The main activity of Bangladesh Health Watch is to publish an annual report on the state of health in Bangladesh every year by commissioning researches. A Working Group consisting of researchers and activists from different organizations carry out the different activities for the Watch. The Secretariat for the BHW is located at the James P Grant School of Public Health, BRAC University. It was initiated in 2006 and will be continuing. BHW is funded by different donors, such as Swedish SIDA, Rockefeller Foundation etc.</p>
+							<p>In the health sector, a strong civil society voice has the potential to influence and positively impact on social exclusion and health inequity through stronger participation, active monitoring and increased accountability and transparency. It can also play a role in refocusing healthcare systems according to health rights and social welfare goals to impact quality of life of the citizens and also provide citizens the power, especially the marginalized and poor, to influence policy decisions.</p>
 						</div>
 					</div>
 				</div>
@@ -59,7 +59,7 @@
 
 
 		<!-- Work section start here -->
-		<section id="Work" class="gray">
+<!-- 		<section id="Work" class="gray">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 		<!-- Work section end here -->
 
 

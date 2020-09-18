@@ -3,7 +3,7 @@
 	@section('content')
 
 <section id="Page-banner">
-	<img src="{{ url ('front/assets/images/page-banners/Blog-banner.jpg') }}" alt="Page Banner Image">
+	<img src="{{ url ('front/assets/images/page-banners/events-banner.jpg') }}" alt="Page Banner Image">
 </section>
 
 
@@ -17,6 +17,18 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="bhw-text">
+							<p>Different events have been organised by BHW as its part of policy advocacy initiatives.  Since early March 2020, BHW has been organizing events on research disseminations, regional meetings etc. Given the exigency of the Covid-19 pandemic, a series of events were organized through Webinar. Among them, the webinar on Success with COVID–19: learning from Kerala (India), Thailand and Vietnam, webinar meeting on Coordination with NGOs in Bangladesh, webinar on COVID-19 in Bangladesh: Transmission Dynamics, Health System Preparedness and Financing, webinar on Bangladesh's health system and its commitment to achieving universal health coverage. All events’ reports are available in this section.</p>
+						</div>
+					</div>
+				</div>
+				
+
+				
+
 				<div class="row">
 
 					@foreach($events as $event)
@@ -45,8 +57,11 @@
 					</div>
 					@endforeach
 					
-					{{ $events->links() }}
-					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						{{ $events->links() }}
+					</div>
 				</div>
 			</div>
 		</section>

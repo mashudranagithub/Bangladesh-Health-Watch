@@ -17,9 +17,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
 
+		<div class="row mb-3">
+			<div class="col-md-12">
+				<div class="bhw-text">
+					<p>BHW facilitates research to generate evidence for evidence based advocacy on different topics to improve the situation related to quality of care, accountability and equity. In order to provide inputs into the Annual Programme Review (APR) of the ongoing sector wide health programme, BHW conducted an assessment of `Users’ Perspective of Public Health Services in Bangladesh’. The findings of the study was disseminated on 5 March 2020. Report is available in <a href="{{ route('publications') }}">here</a></p>
+				</div>
+			</div>
 		</div>
+
 		<div class="row">
 
 			@foreach($research as $single_research)

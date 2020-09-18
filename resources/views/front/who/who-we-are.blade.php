@@ -24,20 +24,4 @@
 
 @include('front.partials.page-links')
 
-
-<section id="Promo-banner" class="d-flex align-items-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="bhw-paragraph">
-					<p>Bangladesh Health Watch has started its three years journey from December 2019 to December 2022 title “Making Bangladesh’s Healthcare Systems More Responsive and Participatory” to execute a comprehensive plan for meeting its agenda of working as a citizens’ watchdog bringing lasting positive changes to the health scenario in Bangladesh by critically analyzing policies and programs and influencing policy changes. The overall objectives of the project is to utilize the opportunity to transform an active, evidence based, impactful watch-dog for the health sector, bringing citizen’s participation and voice to the health policy arena, and enhancing transparency and accountability. The theory of change is set for the project is to </p>
-					<p>“A more responsive healthcare system that delivers better quality, more transparent and equitable healthcare for all being informed by people’s participation and voice”.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
 @endsection
