@@ -3,7 +3,7 @@
 	@section('content')
 
 <section id="Page-banner">
-	<img src="{{ asset('front/assets/images/page-banners/Policy-Advocacy.jpg') }}" alt="Page Banner Image">
+	<img src="{{ asset('front/assets/images/page-banners/covid-page-banner.jpg') }}" alt="Page Banner Image">
 </section>
 
 
@@ -36,7 +36,7 @@
 					SARS-CoV-2</li>
 					</ul>
 
-					<p>All research dissemination reports are available in the <a href="{{ route('publications') }}">publication</a> section.</p>
+					<p>All research dissemination reports are available in the <a href="{{ route('reports-all') }}">publication</a> section.</p>
 
 					<p>Given the exigency of the Covid-19 pandemic, a series of events were organized through <a href="{{ route('events') }}">Webinar</a>. </p>
 					<a href="{{ route('events') }}">Click to see all events</a>

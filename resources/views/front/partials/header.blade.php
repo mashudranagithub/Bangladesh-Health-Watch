@@ -66,11 +66,11 @@
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">
-		                                        <a href="javascript:void(0);">Our Activities</a>
+		                                        <a href="javascript:void(0);">Activities</a>
 		                                        <ul class="first-dropped-menu">
 		                                            <li><a href="{{ route('policy-advocacy') }}">Policy Advocacy</a></li>
 		                                            <li><a href="{{ route('bhw-others') }}">BHW's Role In COVID Crisis</a></li>
-		                                            <li><a href="{{ route('research') }}">Generating for Advocacy</a></li>
+		                                            <li><a href="{{ route('research') }}">Evidence Generation for Advocacy</a></li>
 		                                            <li><a href="{{ route('publications') }}">Publications</a></li>
 		                                            <li><a href="{{ route('regions') }}">Regional Chapter</a></li>
 		                                            <li><a href="{{ route('short-courses') }}">Short Course</a></li>
@@ -80,20 +80,27 @@
 		                                        </ul>
 		                                    </li>
 		                                    <li class="first-drop-menu">
-		                                        <a href="{{ route('reports-all') }}">BHW Publications</a>
+		                                        <a href="{{ route('reports-all') }}">Publications</a>
 		                                        <ul class="first-dropped-menu">
 		                                            <li><a href="{{ route('reports-all') }}">BHW Reports</a></li>
 		                                            <li><a href="{{ route('bhw-bulletin') }}">BHW Bulletin</a></li>
 		                                        </ul>
 		                                    </li>
-		                                    <li>
-		                                        <a href="{{ route('photo-gallery') }}">Photo gallery</a>
+		                                    <li class="first-drop-menu">
+		                                        <a href="#">Media</a>
+		                                        <ul class="first-dropped-menu">
+		                                            <li><a href="#">Mass Media</a></li>
+		                                            <li><a href="#">Social Media</a></li>
+		                                        </ul>
 		                                    </li>
 		                                    <li>
 		                                        <a href="{{ route('blogs') }}">Blogs</a>
 		                                    </li>
 		                                    <li>
 		                                        <a href="{{ route('events') }}">Events</a>
+		                                    </li>
+		                                    <li>
+		                                        <a href="{{ route('photo-gallery') }}">Gallery</a>
 		                                    </li>
 		                                    <li>
 		                                        <a href="{{ route('contact') }}">Contact</a>

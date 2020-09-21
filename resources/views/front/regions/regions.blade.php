@@ -28,7 +28,9 @@
 			@foreach($regions as $region)
 			<div class="col-md-3">
 				<div class="single-region">
-					<a href="{{ route('single-region', $region->id) }}">
+					<!-- <a href="{{ route('single-region', $region->id) }}"> -->
+					<!-- Note:: Ei khane single region page er link disable korar jonno link comment kore deoa hoyese -->
+					<a href="javascript:void(0);">
 						<img src="{{ url('front/assets/images/region/'.$region->region_image) }}" alt="Region Image">
 						<h4 class="region-name">{{ $region->region_name }}</h4>
 					</a>

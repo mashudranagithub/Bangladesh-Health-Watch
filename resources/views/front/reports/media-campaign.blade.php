@@ -11,7 +11,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Bangladesh Health Watch (BHW) Reports</h2>
+				<h2>Bangladesh Health Watch Reports</h2>
 			</div>
 		</div>
 	</div>

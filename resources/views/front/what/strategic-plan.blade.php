@@ -24,7 +24,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<p>In XXX, BHW decided to develop a strategy to revisit its objectives and define its vision, mission  objectives and strategies for achieving those in the context of the current health scenario. The strategy was developed through participation of key members of the working group and external third party participants and resulted in a document which was presented and endorsed by the Working Group of BHW. Subsequently, the strategy formed the main basis of designing a project 'Making Bangladesh’s Healthcare Systems More Responsive and Participatory', which was funded by Sida.</p>
+					<p>In 2019, BHW decided to develop a strategy to revisit its objectives and define its vision, mission  objectives and strategies for achieving those in the context of the current health scenario. The strategy was developed through participation of key members of the working group and external third party participants and resulted in a document which was presented and endorsed by the Working Group of BHW. Subsequently, the strategy formed the main basis of designing a project 'Making Bangladesh’s Healthcare Systems More Responsive and Participatory', which was funded by Sida.</p>
 					<p>BHW has strategic plan where the major activities are focuses on</p> 
 					<ul>
 						<li>To create a platform for voicing concerns</li>

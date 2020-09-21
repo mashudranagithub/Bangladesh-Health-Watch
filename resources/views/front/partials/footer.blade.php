@@ -5,7 +5,7 @@
 			<div class="row justify-content-between">
 				<div class="col-md-4">
 					<div class="footer-column">
-						<h3>About Us</h3>
+						<h3>Address</h3>
 
 						<div class="address">
 							<p>Bangladesh Health Watch Secretariat,<br>
