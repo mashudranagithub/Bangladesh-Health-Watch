@@ -53,6 +53,9 @@ Route::get('single-blog/{id}', 'BhwController@single_blog')->name('single-blog')
 Route::get('/events', 'BhwController@events')->name('events');
 Route::get('single-event/{id}', 'BhwController@single_event')->name('single-event');
 
+Route::get('/mass-media', 'BhwController@mass_media')->name('mass-media');
+Route::get('/social-media', 'BhwController@social_media')->name('social-media');
+
 Route::get('/contact', 'BhwController@contact')->name('contact');
 
 Route::post('/emailsend', 'BhwController@emailsend')->name('emailsend');

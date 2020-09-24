@@ -482,6 +482,26 @@ class BhwController extends Controller
         ));
     }
 
+    // BHW Mass Media
+    public function mass_media() {
+        $photos = Photo::orderBy('created_at', 'desc')->where('photo_type', 'gallery')->take(12)->get();
+        $latest_blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
+        return view('front.media.mass-media', compact(
+            'photos',
+            'latest_blogs'
+        ));
+    }
+
+    // BHW Social Media
+    public function social_media() {
+        $photos = Photo::orderBy('created_at', 'desc')->where('photo_type', 'gallery')->take(12)->get();
+        $latest_blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
+        return view('front.media.social-media', compact(
+            'photos',
+            'latest_blogs'
+        ));
+    }
+
     public function emailsend() {
         return view('front.send_from_email');
     }

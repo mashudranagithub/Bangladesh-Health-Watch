@@ -26,14 +26,14 @@
 					<p>During the covid crisis, BHW also conducted research to address the gaps in knowledge regarding COVID-19.</p>
 					<p><b>Between March-August 2020, BHW commissioned the following research :</b></p>
 					
-					<ul>
+					<ul class="mb-4">
 						<li>Front Line Health Workers (FLWs) perceptions and opinions on their personal safety while attending suspected or confirmed COVID-19 patients in Bangladesh</li>
 						<li>Fear And Stigma in the context of corona epidemic in Bangladesh: A Rapid Assessment,</li>
 						<li>Different aspects of health financing of COVID 19 Response.</li>
 						<li>Opportunities and challenges of strengthening the COVID- 19 case management system in Bangladesh</li>
 						<li>A Quick Assessment of treatment and medicines used in COVID-19 positive persons at home</li>
-						<li>Find out the process and quality of sample collection and T-PCR testing for 
-					SARS-CoV-2</li>
+						<li>Find out the process and quality of sample collection and T-PCR testing for SARS-CoV-2</li>
+						<li>Re-visiting the Front Line health Workers’ (FLWs)  attending suspected or confirmed COVID-19 patients in Bangladesh: how far the situation improved in a month since the last survey?</li>
 					</ul>
 
 					<p>All research dissemination reports are available in the <a href="{{ route('reports-all') }}">publication</a> section.</p>

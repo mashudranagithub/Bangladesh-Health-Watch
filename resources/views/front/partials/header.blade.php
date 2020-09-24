@@ -89,8 +89,8 @@
 		                                    <li class="first-drop-menu">
 		                                        <a href="#">Media</a>
 		                                        <ul class="first-dropped-menu">
-		                                            <li><a href="#">Mass Media</a></li>
-		                                            <li><a href="#">Social Media</a></li>
+		                                            <li><a href="{{ route('mass-media') }}">Mass Media</a></li>
+		                                            <li><a href="{{ route('social-media') }}">Social Media</a></li>
 		                                        </ul>
 		                                    </li>
 		                                    <li>

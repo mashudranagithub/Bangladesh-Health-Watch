@@ -5,6 +5,7 @@
 	<script type="text/javascript" src="{{ asset('front/assets/js/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('front/assets/js/owl.carousel.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('front/assets/js/simple-lightbox.jquery.min.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('front/assets/js/jquery.magnific-popup.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('front/assets/js/bhw.js') }}"></script>
 </body>
 </html>
