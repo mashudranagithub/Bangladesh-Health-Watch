@@ -32,6 +32,7 @@ img {
 h2, h3, h4 {
     font-weight: 400;
     font-family: 'Bebas Neue', cursive;
+    color: #015cae;
 }
 
 h2 {
@@ -183,7 +184,7 @@ a.know-more::after {
     line-height: 90px;
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
-    color: #000;
+    color: #f79420;
     font-size: 1.2rem;
     letter-spacing: 1px;
 }
@@ -200,7 +201,7 @@ li.first-drop-menu>a::after {
     content: '\f107';
     font-family: fontAwesome;
     font-weight: 900;
-    color: #000;
+    color: #f79420;
     position: absolute;
     line-height: 90px;
     right: -5px;
@@ -258,7 +259,7 @@ ul.topbar-menu li.first-drop-menu ul.first-dropped-menu li:hover a {
 
 ul.first-dropped-menu li a:hover,
 ul.second-dropped-menu li a:hover {
-    color: #f79420 !important;
+    color: #015cae !important;
 }
 
 .topbar-menu li.first-drop-menu::after{
@@ -269,7 +270,7 @@ ul.first-dropped-menu li a,
 ul.second-dropped-menu li a {
 	padding: 5px 40px 5px 20px;
     display: inline-block;
-    color: #333;
+    color: #015cae;
     font-size: 1.1rem !important;
     font-weight: 400;
     line-height: 30px !important;
@@ -354,6 +355,7 @@ section#Slider .carousel-caption {
 section#Slider .carousel-caption h2,
 section#Slider .carousel-caption p {
     color: #fff;
+    display: none;
 }
 
 section#Slider .carousel-caption h2 {

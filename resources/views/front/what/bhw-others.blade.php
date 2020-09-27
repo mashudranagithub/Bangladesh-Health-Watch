@@ -36,7 +36,7 @@
 						<li>Re-visiting the Front Line health Workers’ (FLWs)  attending suspected or confirmed COVID-19 patients in Bangladesh: how far the situation improved in a month since the last survey?</li>
 					</ul>
 
-					<p>All research dissemination reports are available in the <a href="{{ route('reports-all') }}">publication</a> section.</p>
+					<p>All research dissemination reports published in the daily newspapers are available <a href="{{ route('publications') }}">Here</a>.</p>
 
 					<p>Given the exigency of the Covid-19 pandemic, a series of events were organized through <a href="{{ route('events') }}">Webinar</a>. </p>
 					<a href="{{ route('events') }}">Click to see all events</a>

@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<div class="col-md-12 mt-3">
-				<p>BHW began with the publication of a series of reports, the Bangladesh Health Watch Reports, which identified the most critical challenges to the health sector at particular points of time and published insightful situation analyses leading to practical recommendations, based on evidence from existing secondary resources and primary research. BHW is also engaged to gather evidence through regular research for evidence based advocacy on topical issues to improve the situation related to quality of care, accountability and equity. BHW is poised to  form Regional Chapter at district level which will act as  citizens’ platform to hold government (and other actors) accountable for their major health sector commitments  their catchment areas.</p>
+				<p>BHW began with the publication of a series of reports, the BHW Reports, which identified the most critical challenges to the health sector at particular points of time and published insightful situation analyses leading to practical recommendations, based on evidence from existing secondary resources and primary research. BHW is also engaged to gather evidence through regular research for evidence based advocacy on topical issues to improve the situation related to quality of care, accountability and equity. BHW is poised to  form Regional Chapter at district level which will act as  citizens’ platform to hold government (and other actors) accountable for their major health sector commitments  their catchment areas.</p>
 			</div>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 		<div class="row mt-3">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<p><b>BHW has been established to achieve the following five main objectives:</b></p>
+					<p><b>BHW objectives:</b></p>
 					<ul>
 						<li>To create a platform for drawing in the voices/opinions of citizens and other stakeholders to voice their concerns on critical public health issues</li>
 						<li>To help generate/identify new evidence for changing practices/policies</li>
