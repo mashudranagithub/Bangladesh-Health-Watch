@@ -74,7 +74,7 @@
 								<i class="fa fa-envelope"></i>
 							</div>
 							<div class="address-details">
-								<p>contact@bangladeshhealthwatch.org</p>
+								<p>bhw@bracu.ac.bd</p>
 							</div>
 						</div>
 					</div>

@@ -1,4 +1,4 @@
-font-family: 'Bebas Neue', cursive;
+/*font-family: 'Bebas Neue', cursive;
 font-family: 'Roboto', sans-serif;*/
 
 * {
@@ -797,6 +797,24 @@ section#single-Blog .blog-info ul li {
     margin-bottom: 10px;
 }
 
+.blog-info table tr td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    line-height: 2;
+}
+
+.blog-info table tr:first-child td {
+    border: 1px solid #333;
+}
+
+.blog-info ol {
+    padding-left: 30px;
+}
+
+.blog-info ol li {
+    line-height: 2;
+}
+
 /*blogs End Here*/
 
 
@@ -1037,6 +1055,11 @@ section#Vision-mission ul li {
     list-style-type: lower-alpha;
     display: list-item;
     margin: 0 0 5px 20px;
+}
+
+section#Vision-mission .bhw-text p b {
+    color: #015cae;
+    text-transform: uppercase;
 }
 
 .single-page-link {
@@ -1361,6 +1384,10 @@ p.course-name a {
 
 .single-course:hover p.course-name {
     background: #f79420;
+}
+
+#Courses .bhw-text ol {
+    padding-left: 35px;
 }
 
 /*Short Courses layout end here*/

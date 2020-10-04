@@ -47,7 +47,7 @@
 				<div class="bhw-text">
 					<h3>d. Media Monitoring report:</h3>
 					<p>BHW is scanning health news published in six mainstream leading daily newspapers (3 Bangla, 3 English) since March 2020 through a media firm/house to generate evidence for its advocacy initiatives. The media house has been developing monthly analyzed report based on the media scanning. </p>
-					<p>Monthly scanning report is available <a href="{{ route('media-monitoring') }}">here</a></p>
+					<p>Monthly scanning reports are available <a href="{{ route('media-monitoring') }}">here</a></p>
 					<p>Besides regular media scanning reports, a media synthesis reports on covid19 on different aspects of health issues periodically published based on the news in the leading national Bangla and English newspapers in Bangladesh which are also available <a href="{{ route('media-synthesis') }}">here</a></p>
 				</div>
 				<hr>
@@ -55,7 +55,7 @@
 				<div class="bhw-text">
 					<h3>e. Media campaign report on covid-19:</h3>
 					<p>BHW carried out a study on fear and stigma related to Covid-19. Based on that study BHW launched a well-designed outreach communication campaign to sensitize the wider population against fear and stigma related to Covid-19. The campaign targets potentially stigmatized people, those who make people stigmatized and support groups like, local administration, political agencies; BGMEA, BKMEA. This initiative was a series of online based campaign programmes that included video spots and other static materials. </p>
-					<p>The campaign materials are <a href="{{ route('media-campaign') }}">here</a></p>
+					<p>The campaign report is available <a href="{{ route('media-campaign') }}">here</a></p>
 				</div>
 				<hr>
 			</div>
@@ -65,31 +65,5 @@
 	</div>
 </section>
 
-
-<section id="Bulletin">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 mb-4">
-				<h3>Bangladesh Health Watch (BHW) Bulletin</h3>
-			</div>
-			@foreach($bulletins as $bulletin)
-			<div class="col-md-3">
-				<div class="single-bulletin">
-					<div class="bulletin-image">
-						<a target="_blank" href="{{ url('front/assets/files/bulletin/'.$bulletin->bulletin_file) }}">
-							<img src="{{ url ('front/assets/images/bulletin/'.$bulletin->bulletin_image) }}" alt="BHW Bulletin Image">
-						</a>
-						<div class="name-year">
-							<h4><a target="_blank" href="{{ url('front/assets/files/bulletin/'.$bulletin->bulletin_file) }}">{{ $bulletin->bulletin_title }}</a></h4>
-							<p>{{ $bulletin->bulletin_month_year }}</p>
-						</div>
-					</div>
-					<a href="{{ url('front/assets/files/bulletin/'.$bulletin->bulletin_file) }}" class="btn btn-download" download>Download</a>
-				</div>
-			</div>
-			@endforeach
-		</div>
-	</div>
-</section>
 
 @endsection

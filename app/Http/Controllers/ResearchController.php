@@ -18,7 +18,7 @@ class ResearchController extends Controller
     {
         $research = Research::orderBy('created_at', 'desc')->paginate(5);
         return view('admin.research.index', compact(
-            'research',
+            'research'
         ));
     }
 
@@ -100,7 +100,7 @@ class ResearchController extends Controller
     {
         $research = Research::find($id);
         return view('admin.research.edit', compact(
-            'research',
+            'research'
         ));
     }
 
@@ -156,6 +156,9 @@ class ResearchController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $file_name = DB::table("research")->where('id',$id)->value('research_image');
+        unlink(public_path("front/assets/images/what-we-do/research/".$file_name));       
+        DB::table("research")->where('id',$id)->delete();
+        return redirect()->route('all-research')->with('msg','Research deleted successfully with the image');
     }
 }

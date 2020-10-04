@@ -9,9 +9,11 @@
 
 <section id="Page-heading">
 	<div class="container">
-		<div class="row">
+		<div class="row mb-4">
 			<div class="col-md-12">
 				<h2>Bangladesh Health Watch Bulletin</h2>
+				<p>The bulletins were published with a purpose to emphasis the importance of the concepts and to learn the good practices in implementing Universal Health Coverage. During the period of 2013 to 2016, BHW published six bulletins on Universal Health Coverage on What? Why? How?(Dec.2013), Call to Action: taking the Universal Health Coverage agenda forward(Apr. 2014), Bangladesh’s path to UHC: the Health Care Financing Strategy – 2012-2032(Sep.2014), Creating momentum for Universal Health Coverage (UHC) in Bangladesh: challenges and opportunities(Dec.2016). All the bulletins are available here</p>
+				<hr>
 			</div>
 		</div>
 	</div>

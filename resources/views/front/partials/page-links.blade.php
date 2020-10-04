@@ -11,7 +11,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="single-page-link">
-					<a href="{{ route('what-we-do') }}">
+					<a href="{{ route('policy-advocacy') }}">
 						<img src="{{ url('front/assets/images/who-we-are/who-we-are-link-2.jpg') }}" alt="Page Link Image">
 						<h3>Our Activities</h3>
 					</a>

@@ -7,11 +7,15 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<h2>Mass Media</h2>
+				</div>
+				<div class="col-md-12">
+					<p>To raise awareness of a range of stakeholders and to trigger interest for bringing about much needed changes BHW continues its media activities through mass media and social media which include television talk shows, press events and media reflection of BHW activities.</p>
 					<hr>
 				</div>
 				<div class="col-md-12">
 					<h3>TV talk show</h3>
-					<p>Talk show on `Pandemic: Public Health arrangement and management' on 6th September 2020, Whole of Society approach / Civil Society engagement and successful management of COVID-19 on 2nd September 2020, COVID-19 Testing on (30th August) and Vaccination of COVID-19 was aired on Channel 24 sponsored by Bangladesh Watch (BHW).</p>
+					<p>Making space for all the stakeholders to interface with each other through various means including TV talk show, BHW organized TV Talk show on Covid-19 pandemic in a private TV channel “Channel 24” as part of its evidence-based advocacy strategies. A total of four episodes were on aired between late August and early September 2020.</p>
+					<hr>
 				</div>
 			</div>
 			<div class="row mt-4">

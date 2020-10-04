@@ -21,7 +21,9 @@
 		<div class="row pb-4">
 			<div class="col-md-12">
 				<div class="bhw-text">
-					<p>The courses will be developed under this   Healthcare Systems More Responsive and Participatory RHS project.</p>
+					<p>Receiving funds from the Swedish International Development Cooperation Agency (Sida) BHW started a three-year project since December 1, 2019 – December 31, 2022 titled `Making Bangladesh’s Healthcare Systems More Responsive and Participatory’. In this current project, short courses for duty-bearers will be conducted as forthcoming activities.</p>
+					<hr>
+					<p>The courses will be developed under this Healthcare Systems More Responsive and Participatory RHS project.</p>
 					<p><b>Courses Name</b></p>
 					<ol>
 						<li>Transparency for Good Governance</li>
