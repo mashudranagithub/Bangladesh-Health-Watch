@@ -66,6 +66,17 @@ class BhwController extends Controller
     }
 
 
+    // Who We Are - how_bhw_works
+    public function how_bhw_works() {
+        $photos = Photo::orderBy('created_at', 'desc')->where('photo_type', 'gallery')->take(12)->get();
+        $latest_blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
+        return view('front.who.how-bhw-works', compact(
+            'photos',
+            'latest_blogs'
+        ));
+    }
+
+
     // Who We Are - Working Group
     public function working_group() {
         $members = DB::table('group_members')->where('member_group', '=', 'working-group')->orderBy('member_position')->get();

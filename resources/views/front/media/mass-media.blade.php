@@ -14,7 +14,7 @@
 				</div>
 				<div class="col-md-12">
 					<h3>TV talk show</h3>
-					<p>Making space for all the stakeholders to interface with each other through various means including TV talk show, BHW organized TV Talk show on Covid-19 pandemic in a private TV channel “Channel 24” as part of its evidence-based advocacy strategies. A total of four episodes were on aired between late August and early September 2020.</p>
+					<p>Making space for all the stakeholders to interface with each other through various means including TV talk show, BHW organized TV Talk show on Covid-19 pandemic in a private TV channel “Channel 24” as part of its evidence-based advocacy strategies. A total of four episodes were aired between late August and early September 2020.</p>
 					<hr>
 				</div>
 			</div>

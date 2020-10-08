@@ -74,7 +74,7 @@
 	<div class="container">
 		<div class="row mb-4">
 			<div class="col-md-12">
-				<h4>Webinar</h4>
+				<h4>WEBINAR ON BHW FACEBOOK Page</h4>
 				<p>Considering the special crisis situation created by the COVID-19, BHW conducted various meetings, seminars, research findings disseminations programme through a series of webinars.</p>
 				<hr>
 				<ul>
@@ -89,7 +89,7 @@
 		</div>
 		<div class="row mt-4">
 			<div class="col-md-12">
-				<h4>Others Videos</h4>
+				<h4>Other videos in BHW’s lens</h4>
 				<hr>
 				<ul>
 					<li><a href="https://www.facebook.com/permalink.php?story_fbid=153753899554367&id=109403770656047" target="_blank">https://www.facebook.com/permalink.php?story_fbid=153753899554367&id=109403770656047</a></li>

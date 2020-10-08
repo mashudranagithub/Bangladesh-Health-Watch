@@ -59,6 +59,7 @@
 		                                        <a href="{{ route('who-we-are') }}">Who we are</a>
 		                                        <ul class="first-dropped-menu">
 		                                            <li><a href="{{ route('background') }}">Background</a></li>
+		                                            <li><a href="{{ route('how-bhw-works') }}">How BHW Works</a></li>
 		                                            <li><a href="{{ route('working-group') }}">Working Group</a></li>
 		                                            <li><a href="{{ route('advisory-group') }}">Advisory Group</a></li>
 		                                            <!-- <li><a href="{{ route('thematic-group') }}">Themetic Group</a></li> -->
@@ -70,12 +71,12 @@
 		                                        <ul class="first-dropped-menu">
 		                                            <li><a href="{{ route('policy-advocacy') }}">Policy Advocacy</a></li>
 		                                            <li><a href="{{ route('bhw-others') }}">BHW's Role In COVID Crisis</a></li>
-		                                            <li><a href="{{ route('research') }}">Evidence Generation for Advocacy</a></li>
-		                                            <li><a href="{{ route('publications') }}">Publications</a></li>
+		                                            <li><a href="{{ route('research') }}">Research for Evidence Generation</a></li>
+		                                            <li><a href="{{ route('publications') }}">Newspaper article</a></li>
 		                                            <li><a href="{{ route('regions') }}">Regional Chapter</a></li>
 		                                            <li><a href="{{ route('short-courses') }}">Short Course</a></li>
 		                                            <li><a href="{{ route('networking') }}">Networking</a></li>
-		                                            <li><a href="{{ route('strategic-plan') }}">Stratigic Plan</a></li>
+		                                            <li><a href="{{ route('strategic-plan') }}">Strategic Plan</a></li>
 		                                            <!-- <li><a href="{{ route('projects') }}">Our Projects</a></li> -->
 		                                        </ul>
 		                                    </li>

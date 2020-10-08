@@ -24,12 +24,13 @@
 			<div class="col-md-6">
 				<div class="bhw-text">
 					<h3>Secretariat</h3>
-					<p>BHW Secretariat has been formed with the professionals to carry out the activities as per the approved plan. The secretariat will thus be the hub of all activities and performs under the guidance of the Working Group and Project Steering Committee and is now housed within JPGSPH premises. The Chief Coordinator is leading the Secretariat with support of five other full time members. An Adviser is providing support and the Convener of the WG is leading the overall performance of the Secretariat.</p>
+					<p>BHW Secretariat has been formed with the professionals to carry out the activities as per the approved plan. The secretariat is the hub of all activities and performs under the guidance of the Working Group and Project Steering Committee and is now housed within JPGSPH premises. The Chief Coordinator is leading the Secretariat with support of five other full time members. An Adviser is providing support and the Convener of the WG is leading the overall performance of the Secretariat.</p>
 				</div>
 			</div>
 			<div class="col-md-5">
 				<div class="secretariat-image">
-					<img src="{{ url('front/assets/images/who-we-are/secretariat-group/Organogram.JPG') }}" alt="Organogram Image">
+					<img src="{{ url('front/assets/images/who-we-are/secretariat-group/Organogram.jpg') }}" alt="Organogram Image">
+					<p class="text-center mt-2"><b>Organogram/Structure of BHW Secretariat</b></p>
 				</div>
 			</div>
 		</div>

@@ -420,9 +420,9 @@ section#Intro {
 }
 
 section#Intro .intro-text {
-    max-width: 85%;
+/*    max-width: 85%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 30px;*/
 }
 
 .intro-text p {
@@ -589,6 +589,7 @@ section#Link-banner {
 
 .single-event-image.image-box {
     position: relative;
+    max-height: 188px;
 }
 
 .single-event-image.image-box span.status {
@@ -1074,6 +1075,10 @@ section#Vision-mission .bhw-text p b {
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px black;
+    background: rgb(0 0 0 / 0.5);
+    box-shadow: 0 0px 20px 0px #000;
+    padding: 5px;
 }
 
 
@@ -1157,6 +1162,10 @@ a.group-member-details-link img {
 
 .group-member:hover a.group-member-details-link {
     opacity: 1;
+}
+
+.secretariat-image {
+    margin-bottom: 30px;
 }
 
 
@@ -1302,6 +1311,12 @@ section#Networking h2 {
 
 .bhw-text p {
     margin-bottom: 15px;
+}
+
+section#Networking .bhw-text ul li {
+    display: list-item;
+    list-style: disc;
+    margin-left: 40px;
 }
 
 /*BHW Newworking Layout End here*/

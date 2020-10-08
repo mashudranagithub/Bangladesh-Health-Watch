@@ -7,6 +7,7 @@ Route::get('/', 'BhwController@index')->name('homepage');
 // Who we are view routes
 Route::get('/who-we-are', 'BhwController@who_we_are')->name('who-we-are');
 Route::get('background', 'BhwController@background')->name('background');
+Route::get('how-bhw-works', 'BhwController@how_bhw_works')->name('how-bhw-works');
 Route::get('working-group', 'BhwController@working_group')->name('working-group');
 Route::get('advisory-group', 'BhwController@advisory_group')->name('advisory-group');
 Route::get('thematic-group', 'BhwController@thematic_group')->name('thematic-group');

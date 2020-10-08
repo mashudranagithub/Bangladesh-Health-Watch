@@ -47,9 +47,20 @@
 							<h2>Bangladesh health watch</h2>
 						</div>
 					</div>
-					<div class="col-md-12 text-center">
+					<div class="col-md-12">
 						<div class="intro-text">
-							<p>In the health sector, a strong civil society voice has the potential to influence and positively impact on social exclusion and health inequity through stronger participation, active monitoring and increased accountability and transparency. It can also play a role in refocusing healthcare systems according to health rights and social welfare goals to impact quality of life of the citizens and also provide citizens the power, especially the marginalized and poor, to influence policy decisions.</p>
+							<p>Bangladesh Health Watch (BHW), a citizens’ platform was established in 2006 dedicated to improve the health system in Bangladesh through evidence-based critical review of policies and programmes, and recommend appropriate actions for change. In the health sector, a strong civil society voice has the potential to influence and positively impact on social exclusion and health inequity through stronger participation, active monitoring and increased accountability and transparency. It can also play a role in refocusing healthcare systems according to health rights and social welfare goals to impact quality of life of the citizens and also provide citizens the power, especially the marginalized and poor, to influence policy decisions.</p>
+							<hr>
+							<div class="row mt-4">
+								<div class="col-md-6">
+									<h3>Mission</h3>
+									<p>To provide a strong platform through which health care professionals and programmers, researchers and citizens can get their voices heard and thereby influence policies and programmes impacting citizens’ health.</p>
+								</div>
+								<div class="col-md-6">
+									<h3>Vision</h3>
+									<p>A country where all citizens are able to achieve optimum health through policies and programmes based on evidence and citizens’ voice.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

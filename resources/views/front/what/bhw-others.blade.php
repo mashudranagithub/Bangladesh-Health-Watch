@@ -41,7 +41,7 @@
 						<li><a href="{{ url('front/assets/files/research/Re-visiting-the-FLWs-Study_updated-version-Syed-Masud-Ahmed-et-al.-2-June-2020.pdf') }}" target="_blank">Re-visiting the Front Line health Workers’ (FLWs)  attending suspected or confirmed COVID-19 patients in Bangladesh: how far the situation improved in a month since the last survey?</a></li>
 					</ul>
 
-					<a href="{{ route('events') }}">Click to see all events</a>
+					<a href="{{ route('research') }}">Click to see all Research</a>
 				</div>
 			</div>
 		</div>

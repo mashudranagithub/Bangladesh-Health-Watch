@@ -25,7 +25,7 @@
 			<div class="col-md-12">
 				<div class="bhw-text">
 					<h3>Media Synthesis report:</h3>
-					<p>Besides regular media scanning reports, a media synthesis reports on covid19 on different aspects of health issues periodically published based on the news in the leading national Bangla and English newspapers in Bangladesh which are also available below.</p>
+					<p>Regular media scanning reports, media synthesis reports on different aspects of covid 19, published periodically in leading national Bangla and English newspapers in Bangladesh which are also available below.</p>
 				</div>
 				<hr>
 			</div>

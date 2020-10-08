@@ -21,7 +21,7 @@
 					<div class="col-md-12">
 						<div class="bhw-text">
 							<p>So far 20 newspaper/journal articles are written by BHW’s WG members which are published both Bangla and English newspapers.</p>
-							<p>All write up/ articles are posted in the blog. Those are available here.</p>
+							<p>All write up/ articles will be posted in the blog. Blogs is in progress.</p>
 						</div>
 					</div>
 				</div>
