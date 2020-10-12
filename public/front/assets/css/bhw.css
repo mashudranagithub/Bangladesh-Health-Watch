@@ -190,7 +190,7 @@ a.know-more::after {
 }
 
 .main-menu nav ul.navbar-nav>li {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 li.first-drop-menu>a {
@@ -304,20 +304,20 @@ ul.first-dropped-menu.last-dropdown {
 
 /*Dropdown Menu End*/
 
-
-
-.main-menu .search input {
-    display: none;
+.main-menu .search {
+    border-left: 1px solid #f79420;
+    border-right: 1px solid #f79420;
+    min-width: 50px;
+    width: auto;
+    margin-left: 20px;
 }
 
-.main-menu form {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    width: 80px;
+.main-menu .search a.search-icon {
+    padding: 30px 10px;
 }
 
 a.search-icon i.fa {
-    color: #ddd;
+    color: #f79420;
 }
 
 /*Extra CSS for menu fix*/

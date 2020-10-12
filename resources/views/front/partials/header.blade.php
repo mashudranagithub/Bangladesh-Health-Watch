@@ -109,14 +109,11 @@
 		                                </ul>
 		                            </div>
 		                        </nav>
-		                        <!-- <form action="#" class="d-flex align-items-center justify-content-center">
-		                        	<div class="search">
-		                        		<input type="search" placeholder="Search Here">
-		                        		<a href="#" class="search-icon">
-		                        			<i class="fa fa-search"></i>
-		                        		</a>
-		                        	</div>
-		                        </form> -->
+	                        	<div class="search d-flex align-items-center justify-content-center">
+	                        		<a href="#" class="search-icon">
+	                        			<i class="fa fa-search"></i>
+	                        		</a>
+	                        	</div>
 							</div>
 						</div>
 					</div>
