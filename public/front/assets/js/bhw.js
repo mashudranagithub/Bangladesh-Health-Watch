@@ -185,6 +185,13 @@ var gallery = $('.gallery a').simpleLightbox({
 
 
 
+    $('.search-icon').click(function(){
+        $('.search-field').toggle();
+        $(this).children('i.fa').toggleClass('fa-close');
+    });
+
+
+
 
 	
 });

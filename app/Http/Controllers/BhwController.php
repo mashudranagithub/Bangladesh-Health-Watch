@@ -23,6 +23,15 @@ use Session;
 
 class BhwController extends Controller
 {
+	
+	public function launch() {
+        $photos = Photo::orderBy('created_at', 'desc')->where('photo_type', 'gallery')->take(12)->get();
+        $latest_blogs = Blog::orderBy('created_at', 'desc')->take(4)->get();
+        return view('front.launching', compact(
+            'photos',
+            'latest_blogs'
+        ));
+	}
     // Homepage 
     public function index() {
         $events = Event::orderBy('created_at', 'desc')->take(3)->get();

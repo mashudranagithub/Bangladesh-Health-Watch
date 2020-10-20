@@ -39,6 +39,10 @@
 					</div>
 				</div>
 			</div>
+<div class="search-field">
+	<script async src="https://cse.google.com/cse.js?cx=fcacf84d9134fae48"></script>
+	<div class="gcse-search"></div>
+</div>
 			<div class="header-main">
 				<div class="container">
 					<div class="row d-flex align-items-center">

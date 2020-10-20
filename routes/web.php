@@ -63,6 +63,8 @@ Route::post('/emailsend', 'BhwController@emailsend')->name('emailsend');
 
 Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
 
+Route::get('/launch', 'BhwController@launch')->name('launch');
+
 
 Auth::routes(['verify' => true]);
 

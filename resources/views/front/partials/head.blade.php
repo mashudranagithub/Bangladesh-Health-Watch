@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="description" content="Bangladesh Health Watch (BHW), a citizens’ platform was established in 2006 dedicated to improve the health system in Bangladesh through evidence-based critical review of policies and programmes, and recommend appropriate actions for change.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Bangladesh Health Watch</title>
 		<!-- Favicon Icon -->
 		<link rel="apple-touch-icon" sizes="57x57" href="assets/images/logo/favicon/apple-icon-57x57.png">

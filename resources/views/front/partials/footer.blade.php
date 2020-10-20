@@ -44,6 +44,21 @@
 							</li>
 						</ul>
 
+  <div class="mt-3">
+    <p>The number of visitors is : <span id="cntr">0</span></p>
+  </div>
+
+  <script>
+    function counter_fn() {
+      var counter = document.getElementById("cntr");
+      var count = 0;
+      count = parseInt(counter.innerHTML);
+      count = count + 1;
+      counter.innerHTML = count;
+    }
+    window.onload = counter_fn;
+  </script>
+
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -53,7 +68,26 @@
 						@foreach($latest_blogs as $latest_blog)
 						<p><a href="{{ route('single-blog', $latest_blog->id) }}">{{ $latest_blog->blog_title }}</a></p>
 						@endforeach
+						<div class="hit-counter">
 
+						<style>
+							.hit-counter {
+							position: absolute;
+							bottom: 20px;
+							left: 15px;
+							}
+
+							.hit-counter p {
+							margin-bottom: 0;
+							}
+
+							.hit-counter a br {
+							display: none;
+							}
+						</style>
+							<p>Total Visit</p>
+							<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/756789/t/5"></script>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4">

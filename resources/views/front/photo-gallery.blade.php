@@ -3,7 +3,7 @@
 	@section('content')
 
 <section id="Page-banner">
-	<img src="{{ url ('front/assets/images/page-banners/Blog-banner.jpg') }}" alt="Page Banner Image">
+	<img src="{{ url ('front/assets/images/page-banners/photo-gallery-banner.jpg') }}" alt="Page Banner Image">
 </section>
 
 

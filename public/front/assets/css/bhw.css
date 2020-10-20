@@ -326,6 +326,20 @@ a.search-icon i.fa {
     padding-right: 0;
 }
 
+header#Header {
+    position: relative;
+}
+
+.search-field {
+    position: absolute;
+    top: 100%;
+    right: 119px;
+    max-width: 500px;
+    z-index: 99;
+    display: none;
+    border-top: 1px solid #ddd;
+}
+
 
 /*Header end*/
 
@@ -623,7 +637,7 @@ span.event-time,
 span.event-venue {
     position: relative;
     padding-left: 15px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 span.event-time::before,

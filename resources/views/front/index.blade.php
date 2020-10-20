@@ -187,7 +187,7 @@
 
 
 		<!-- Blogs section start here -->
-		<section id="Blogs" class="white">
+		<section id="Blogs" class="white d-none">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
