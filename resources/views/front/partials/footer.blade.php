@@ -43,30 +43,14 @@
 								</a>
 							</li>
 						</ul>
-
-  <div class="mt-3">
-    <p>The number of visitors is : <span id="cntr">0</span></p>
-  </div>
-
-  <script>
-    function counter_fn() {
-      var counter = document.getElementById("cntr");
-      var count = 0;
-      count = parseInt(counter.innerHTML);
-      count = count + 1;
-      counter.innerHTML = count;
-    }
-    window.onload = counter_fn;
-  </script>
-
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="footer-column">
-						<h3>Recent Posts</h3>
+						<h3>Recent Newspaper Articles</h3>
 						
-						@foreach($latest_blogs as $latest_blog)
-						<p><a href="{{ route('single-blog', $latest_blog->id) }}">{{ $latest_blog->blog_title }}</a></p>
+						@foreach($latest_posts as $latest_post)
+						<p><a target="_blank" href="{{ $latest_post->publication_link }}">{{ Illuminate\Support\Str::limit($latest_post->publication_title, 40) }}</a></p>
 						@endforeach
 						<div class="hit-counter">
 
@@ -116,9 +100,9 @@
 				</div>
 				<div class="col-md-6">
 					<ul class="footer-menu">
-						<li><a href="javascript:void(0);">Career</a></li>
+<!-- 						<li><a href="javascript:void(0);">Career</a></li>
 						<li><a href="javascript:void(0);">Terms of use</a></li>
-						<li><a href="javascript:void(0);">Privacy policy</a></li>
+						<li><a href="javascript:void(0);">Privacy policy</a></li> -->
 					</ul>
 				</div>
 			</div>
