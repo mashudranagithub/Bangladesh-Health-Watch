@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180910284-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-180910284-1');
+		</script>
 		<meta charset="UTF-8">
 		<meta name="description" content="Bangladesh Health Watch (BHW), a citizens’ platform was established in 2006 dedicated to improve the health system in Bangladesh through evidence-based critical review of policies and programmes, and recommend appropriate actions for change.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +26,9 @@
 
 		<!-- Google Font -->
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
 		<link rel="stylesheet" href="{{ asset('front/assets/css/font-awesome.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('front/assets/css/simple-lightbox.css') }}">

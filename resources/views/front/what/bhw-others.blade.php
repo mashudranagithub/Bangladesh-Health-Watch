@@ -35,9 +35,9 @@
 						<li><a href="{{ url('front/assets/files/research/Frontline workers_April 19_final brief 2020-min.pdf') }}" target="_blank">Front Line Health Workers (FLWs) perceptions and opinions on their personal safety while attending suspected or confirmed COVID-19 patients in Bangladesh</a></li>
 						<li><a href="{{ url('front/assets/files/research/FearStigma-Corona-HW-Final Report-5May 2020.pdf') }}" target="_blank">Fear And Stigma in the context of corona epidemic in Bangladesh: A Rapid Assessment,</a></li>
 						<li><a href="{{ url('front/assets/files/research/Financial Analysis Report 4_17.5.2020_Clean_Final.pdf') }}" target="_blank">Different aspects of health financing of COVID 19 Response.</a></li>
-						<li><a href="#" target="_blank">Opportunities and challenges of strengthening the COVID- 19 case management system in Bangladesh</a></li>
-						<li><a href="#" target="_blank">A Quick Assessment of treatment and medicines used in COVID-19 positive persons at home</a></li>
-						<li><a href="#" target="_blank">Find out the process and quality of sample collection and T-PCR testing for SARS-CoV-2</a></li>
+						<li><a href="{{ url('front/assets/files/research/Final Report _COVID 19_Case Management System_BUHS.pdf') }}" target="_blank">Opportunities and challenges of strengthening the COVID- 19 case management system in Bangladesh</a></li>
+						<li><a href="{{ url('front/assets/files/research/COVID-19 treatment at home updated paper MF ajf final_NJ27Sept2020.pdf') }}" target="_blank">A Quick Assessment of treatment and medicines used in COVID-19 positive persons at home</a></li>
+						<li><a href="{{ url('front/assets/files/research/Report on the sample collection and testing procedures-final.pdf') }}" target="_blank">Find out the process and quality of sample collection and T-PCR testing for SARS-CoV-2</a></li>
 						<li><a href="{{ url('front/assets/files/research/Re-visiting-the-FLWs-Study_updated-version-Syed-Masud-Ahmed-et-al.-2-June-2020.pdf') }}" target="_blank">Re-visiting the Front Line health Workers’ (FLWs)  attending suspected or confirmed COVID-19 patients in Bangladesh: how far the situation improved in a month since the last survey?</a></li>
 					</ul>
 

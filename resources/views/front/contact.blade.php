@@ -86,7 +86,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" id="gmap_canvas" src="https://maps.google.com/maps?ll=23.7762341,90.3998372&q=ICDDRB Dhaka Hospital&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Do you want to know if you are <a rel="nofollow" href="https://techwithlove.com/how-to-know-if-someone-blocked-you-on-whatsapp/">blocked on WhatsApp?</a></div><style>.mapouter{position:relative;text-align:right;height:420px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;}</style></div>
+<div id="mapid" style="width: 100%; height: 400px;"></div>
+<script>
+	var bhwMap = L.map('mapid').setView([23.776315, 90.399880], 16);
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox/streets-v11',
+		tileSize: 512,
+		zoomOffset: -1
+	}).addTo(bhwMap);
+	L.marker([23.776315, 90.399880]).addTo(bhwMap).bindPopup("<b>Bangladesh Health Watch</b>").openPopup();
+	L.circle([23.776315, 90.399880], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 5
+	}).addTo(bhwMap);
+	var popup = L.popup();
+</script>
 				</div>
 			</div>
 		</div>
