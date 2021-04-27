@@ -64,19 +64,17 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<ul>
-						<li><a href="{{ asset('front/assets/files/media/press-release/JPG&BHW press release_Bangla Final.pdf') }}" target="_blank">ব্র্যাক জেপিজিএসপিএইচ এবং বিএইচডব্লিউ কর্তৃক পরিচালিত কোভিড-১৯ বিষয়ক গবেষণা ফলাফল</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/JPG&BHW press release_Eng Final.pdf') }}" target="_blank">COVID-19 related research findings of studies conducted by BRAC JPGSPH and BHW</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release _Bangla.pdf') }}" target="_blank">বাংলাদেশ হেল্থ ওয়াচ, ঢাকা, ২০ জুলাই ২০২০</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release _English.pdf') }}" target="_blank">Regional learning sharing on COVID-19: organized by Bangladesh Health Watch</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release-finance_Bangla.pdf') }}" target="_blank">গবেষণার শিরোনাম: কোভিড-১৯ মোকাবেলায় স্বাস্থ্যখাতে সম্পদসংস্থানের বিভিন্ন দিক</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release-Finance_English.pdf') }}" target="_blank">Title: Different Aspects of Health Financing of COVID 19 Response</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release-FLWs_Bangla.pdf') }}" target="_blank">গবেষণার শিরোনাম: বাংলাদেশে সন্দেহভাজন বা নিশ্চিত কোভিড-১৯ রোগীদের সেবাদানকারী সম্মুখসারির স্বাস্থ্যকর্মীদের (এফএলডব্লিউ)   পুনঃ সাক্ষাৎকার গ্রহণ: সর্বশেষ জরিপের পরে গত এক মাসে পরিস্থিতি কতটা উন্নতি করেছে?</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release-FLWs_ENGLISH.pdf') }}" target="_blank">Study Title: Re-visiting the Front Line health Workers’ (FLWs)  attending suspected or confirmed COVID-19 patients in Bangladesh: how far the situation improved in a month since the last survey?</a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-release_Community-engagement_Bangla.pdf') }}" target="_blank">নাগরিক সামাজের একটি প্লাটফর্ম হিসেবে বাংলাদেরশ হেল্থ ওয়াচ </a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/As-a-platform-for-civil-society-(BHW)-english.pdf') }}" target="_blank">As a platform for civil society, Bangladesh Health Watch (BHW) </a></li>
-						<li><a href="{{ asset('front/assets/files/media/press-release/Press-Release_F&Stigma_May 02_2020.pdf') }}" target="_blank">করোনাকে ঘিরে জনমনে ব্যাপক আতঙ্কের জন্ম হয়েছে, অপবাদের ঘটনাও ঘটছে। </a></li>
+					<ul class="press">
+						@foreach($press_releases as $press)
+						<li>
+							<a href="{{ asset('front/assets/files/media/press-releases/'.$press->press_file) }}" target="_blank">
+								{{ $press->title }}
+							</a>
+						</li>
+						@endforeach
 					</ul>
+					<hr>
+					{{ $press_releases->links() }}
 				</div>
 			</div>
 		</div>

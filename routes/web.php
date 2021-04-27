@@ -89,7 +89,6 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::delete('group-member/delete/{id}', 'Group_memberController@destroy')->name('deleteGroup-member');
 
 
-
 	// Region Routes Start Here
 	Route::get('all-regions', 'RegionController@index')->name('all-regions');
 	Route::get('region/create', 'RegionController@create')->name('createRegion');
@@ -239,6 +238,27 @@ Route::group(['middleware' => ['auth']], function() {
 
 
 	Route::get('/subscribers', 'SubscriptionController@index')->name('subscribers');
+
+
+	// Press Release Start Here
+	Route::get('/press_releases', 'PressReleaseController@index')->name('pressReleases');
+	Route::get('/press_release/create', 'PressReleaseController@create')->name('createPressRelease');
+	Route::post('/press_release/create', 'PressReleaseController@store')->name('storePressRelease');
+	Route::get('/press_release/show/{id}', 'PressReleaseController@show')->name('showPressRelease');
+	Route::get('/press_release/edit/{id}', 'PressReleaseController@edit')->name('editPressRelease');
+	Route::put('/press_release/update/{id}', 'PressReleaseController@update')->name('updatePressRelease');
+	Route::delete('/press_release/delete/{id}', 'PressReleaseController@destroy')->name('deletePressRelease');
+
+
+
+	// Video controller start here
+	Route::get('/media_videos', 'VideoController@index')->name('videos');
+	Route::get('/media_video/create', 'VideoController@create')->name('createVideo');
+	Route::post('/media_video/create', 'VideoController@store')->name('storeVideo');
+	Route::get('/media_video/show/{id}', 'VideoController@show')->name('showVideo');
+	Route::get('/media_video/edit/{id}', 'VideoController@edit')->name('editVideo');
+	Route::put('/media_video/update/{id}', 'VideoController@update')->name('updateVideo');
+	Route::delete('/media_video/delete/{id}', 'VideoController@destroy')->name('deleteVideo');
 
 
 

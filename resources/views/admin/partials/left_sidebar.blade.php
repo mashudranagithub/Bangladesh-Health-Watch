@@ -261,6 +261,20 @@
           </ul>
         </li>
 
+        <li class="treeview">
+          <a href="javascript:void(0);">
+            <i class="fa fa-sliders text-yellow"></i>
+            <span>Media</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+              <li><a class="nav-link" href="{{ route('pressReleases') }}"><i class="fa fa-circle-o text-red"></i>Press Release</a></li>
+              <li><a class="nav-link" href="{{ route('videos') }}"><i class="fa fa-circle-o text-aqua"></i>Videos</a></li>
+          </ul>
+        </li>
+
         <li>
           <a href="{{ route('subscribers') }}">
             <i class="fa fa-list text-yellow"></i>

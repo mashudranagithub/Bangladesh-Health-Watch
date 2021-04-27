@@ -18,6 +18,7 @@ use App\Course;
 use App\Photo;
 use App\Project;
 use App\Slider;
+use App\PressRelease;
 use DB;
 use Session;
 
@@ -506,9 +507,11 @@ class BhwController extends Controller
     public function mass_media() {
         $photos = Photo::orderBy('created_at', 'desc')->where('photo_type', 'gallery')->take(12)->get();
         $latest_posts = Publication::orderBy('created_at', 'desc')->take(4)->get();
+        $press_releases = PressRelease::orderBy('created_at', 'desc')->paginate(10);
         return view('front.media.mass-media', compact(
             'photos',
-            'latest_posts'
+            'latest_posts',
+            'press_releases'
         ));
     }
 
